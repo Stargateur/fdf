@@ -55,6 +55,7 @@ OBJ	=	$(SRC:.c=.o)
 all	:	$(NAME)
 
 $(NAME)	:	$(OBJ)
+		$(MAKE) -C minilibx
 		$(CC) $(OBJ) -o $(NAME) $(LDFLAGS)
 
 clean	:

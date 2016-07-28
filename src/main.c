@@ -5,7 +5,7 @@
 ** Login   <plasko_a@epitech.net>
 ** 
 ** Started on  Tue Nov  5 14:11:49 2013 Antoine Plaskowski
-** Last update Sun Dec  8 16:45:19 2013 Antoine Plaskowski
+** Last update Fri Nov 28 01:21:23 2014 Antoine Plaskowski
 */
 
 #include	<stdlib.h>
@@ -23,7 +23,7 @@ int		main(int argc , char **argv)
   t_mlx_ptr	mlx_ptr;
   int		fd;
 
-  if (argc < 1)
+  if (argc <= 1)
     {
       my_putstr("Usage ./fdf file\n", 2);
       return (1);
